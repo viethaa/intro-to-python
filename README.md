@@ -5,10 +5,10 @@
 
 Welcome to the **```Introduction to Python```** repository! This guide is designed for beginners who want to learn the basics of Python, covering essential concepts and hands-on exercises to help you get started. We will explore Python's syntax, data types, control structures, functions, and modules. Additionally, we will delve into object-oriented programming (OOP), file handling, and basic automation techniques. By the end of this guide, you will have a solid foundation in Python and be able to build simple applications confidently. 
 
-## ```What is Python?``` 🤔
+## What is Python? 🤔
 Python is a high-level, versatile programming language known for its simplicity and readability. It is widely used in web development, data science, artificial intelligence, automation, and more.
 
-## ```Features of Python:``` 📌
+## Features of Python 📌
 - Easy-to-read syntax and beginner-friendly
 - Cross-platform compatibility (Windows, macOS, Linux)
 - Extensive libraries and frameworks
