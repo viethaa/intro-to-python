@@ -26,7 +26,8 @@ This repository is divided by the following topics:
 
 | Topic:        | Day: | Learn Here:  | 
 | :--------------------: |:--------------:| :-----------:| 
-| Setup & Installation        | 01 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2001) | [Open](https://colab.research.google.com/github/computationalcore/introduction-to-python/blob/master/notebooks/1-basics/PY0101EN-1-1-Hello.ipynb) |
+| Setup & Installation        | 01 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2001) | 
+| Data Types & Symbols        | 02 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
 
 <br>
 
