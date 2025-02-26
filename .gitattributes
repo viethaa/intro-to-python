@@ -1,10 +1,4 @@
-# Force Markdown as primary language
+*.md linguist-vendored=false
+*.md linguist-generated=false
+*.md linguist-documentation=false
 *.md linguist-detectable=true
-*.md linguist-language=Markdown
-
-# Mark other languages as "vendored" (ignored in language stats)
-*.py linguist-vendored
-*.js linguist-vendored
-*.html linguist-vendored
-*.css linguist-vendored
-*.cpp linguist-vendored
