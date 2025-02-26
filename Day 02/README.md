@@ -56,7 +56,7 @@ temperature = -5.8
 - Represents `ordered` and `mutable` (can change) collection of elements
 - Example:
 ```python
-fruits = [Apple, Banana, Strawberry]
+fruits = ["Apple", "Banana", "Strawberry"]
 numbers = [1, 2, 3, 4, 5]
 ```
 
