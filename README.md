@@ -28,6 +28,7 @@ This repository is divided by the following topics:
 | :--------------------: |:--------------:| :-----------:| 
 | Setup & Installation        | 01 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2001) | 
 | Data Types & Symbols        | 02 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
+| Variables & If Else Statements        | 03 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
 
 <br>
 
