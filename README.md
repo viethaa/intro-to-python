@@ -31,8 +31,11 @@ This repository is divided by the following topics:
 | Setup & Installation        | 01 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2001) | 
 | Data Types & Symbols        | 02 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
 | Variables & If Else Statements        | 03 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2003) | 
-| Adittional Practice!        | 04 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
-| Range and For Loop        | 05 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
+| Range and For Loops        | 04 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
+| Review Day        | 05 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
+| Dictionary        | 06 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
+| Functions        | 07 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
+| Make a Python Game!        | 08 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 
 <br>
 
