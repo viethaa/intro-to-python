@@ -33,8 +33,8 @@ This repository is divided by the following topics:
 | Variables & If Else Statements        | 03 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2003) | 
 | Range and For Loops        | 04 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) | 
 | Review Day        | 05 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
-| Dictionary        | 06 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
-| Functions        | 07 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
+| Dictionary Data Structures       | 06 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
+| Functions and Modules        | 07 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 | Make a Python Game!        | 08 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 
 <br>
