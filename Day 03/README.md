@@ -75,7 +75,7 @@ else:
 ```python
 age = int(input("Enter your age: ")) 
 ```
-- Write an `If Else statement` to check if the age is bigger or older than 18
+- Write an `If Else statement` to check if the age is older or younger than 18
 - If the user age is > 18, `print("Welcome!")`
 - If the user age is < 18, `print("Sorry, you need to be 18 to enter")`
 
