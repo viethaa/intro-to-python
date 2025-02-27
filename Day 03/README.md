@@ -6,7 +6,7 @@
 `*` *Variables and If Else statements are fundamental building blocks in Python Code*
 
 - `Variables 🪣` store data, while `if-else statements ⚖️` help make decisions based on conditions.
-- Understanding these concepts will allow you programs in Python.
+- Understanding these concepts will allow you program in Python.
 
 <br>
 
@@ -22,14 +22,15 @@
 
 Example:
 ```python
-name = "Kanye"   # name is the variable, "Kanye" is the str value
-age = "17"       # age is the variable, 17 is the int value
+name = "Kanye"  
+age = "17"   
 ```
+- `name` is the variable, "Kanye" is the str value
+- `age` is the variable, 17 is the int value
 
 <br>
 
 ## ```If Else Statements 🪣```
-
 `*` If-Else statements are used for decision-making in Python. They allow the program to execute different code blocks based on conditions.
 
 ### Syntax of If Else:
@@ -64,6 +65,7 @@ elif score >= 70:
 else:
     print("Grade: F")   
 ```
+
 <br>
 
 ## ```Excercise 01: Can You Enter The Club? 🎉```
@@ -76,8 +78,20 @@ else:
 age = int(input("Enter your age: ")) 
 ```
 - Write an `If Else statement` to check if the age is older or younger than 18
-- If the user age is > 18, `print("Welcome!")`
-- If the user age is < 18, `print("Sorry, you need to be 18 to enter")`
+  
+<br>
+
+**`->`** If the user age is > 18:
+```python
+print("Welcome! You may enter")
+```
+
+<br>
+
+**`->`** If the user age is < 18:
+```python
+print("Sorry, you must be atleast 18")
+```
 
 <br>
 <br>
