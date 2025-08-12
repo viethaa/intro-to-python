@@ -5,7 +5,9 @@
 
 Welcome to the **```Introduction to Python```** repository! This guide is designed for beginners who want to learn the basics of Python, covering essential concepts and hands-on exercises to help you get started. 
 
-We will explore Python's syntax, data types, control structures, functions, and modules. Additionally, we will delve into object-oriented programming (OOP), file handling, and basic automation techniques. By the end of this guide, you will have a solid foundation in Python and be able to build simple applications confidently. 
+We will explore Python's **syntax, data types, control structures, functions, and modules**. Additionally, we will delve into **object-oriented programming (OOP), file handling, and basic automation techniques**. By the end of this guide, you will have a solid foundation in Python and be able to build simple applications confidently. 
+
+---
 
 <br>
 
@@ -48,3 +50,5 @@ This project is licensed under the `MIT License` - see the [LICENSE](LICENSE) fi
 ## Contributers &nbsp; 🧑‍💻
 - `Ha Bach Viet`
 - `Duong Nhat Duy`
+
+---
