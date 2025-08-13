@@ -38,6 +38,7 @@ This repository is divided by the following topics:
 | Dictionary Data Structures       | 06 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 | Functions & Modules        | 07 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 | Make a Python Game!        | 08 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
+| Numpy, Pandas, & Scipy        | 09 | [Link](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 
 <br>
 
