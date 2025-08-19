@@ -8,6 +8,8 @@
 
 ---
 
+<br>
+
 ## 📌 What is Python?
 Python is a high-level, versatile programming language known for its **simplicity** and **readability**.  
 It’s widely used in:
@@ -17,7 +19,7 @@ It’s widely used in:
 - ⚙️ Automation  
 - 🧪 Scientific Computing
 
----
+<br>
 
 ## 🧩 Key Features of Python
 - ✨ **Beginner-Friendly** — clean and easy-to-read syntax  
@@ -26,7 +28,7 @@ It’s widely used in:
 - 🔄 **Flexible Paradigms** — supports OOP, functional, and procedural styles  
 - 🌍 **Community Support** — large, helpful global community
 
----
+<br>
 
 ## 📚 Table of Contents
 This repository is organized by daily lessons:
@@ -43,7 +45,7 @@ This repository is organized by daily lessons:
 | Build a Python Game! | 08 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2008) |
 | NumPy, Pandas & SciPy | 09 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2009) |
 
----
+<br>
 
 ## 🧑‍💻 Contributors
 - **Ha Bach Viet**  
