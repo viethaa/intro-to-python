@@ -84,7 +84,7 @@ person = {
 
 <br>
 
-## ```Symbols and Operators ➕```
+## ```Symbols and Operators: ➕```
 
 | Arithmetic Operators | Function               |  
 |:----------------------:|:-----------------------:|  
@@ -128,4 +128,33 @@ student = {
 print(student)
 ```
 
-`❗` &nbsp; **`Press the triangle play button on the top-right of your screen to run the code!`**
+---
+
+<br>
+
+## ```Run Python Code: ▶️```
+
+1. **Open VS Code**  
+   - Start Visual Studio Code on your computer.
+
+<br>
+
+2. **Open the Terminal**  
+   - Press **`Ctrl` + `~`** (the little backtick key, usually under the Esc key).  
+   - A panel will open at the bottom of VS Code — this is the terminal.
+
+<br>
+
+3. **Run Your Python File**  
+   - In the terminal, type:
+
+```python
+python3 your_file_name.py
+```
+
+<br>
+
+4. **Check your results**  
+   - Compare and check results if they are correct!
+
+---
