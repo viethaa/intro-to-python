@@ -3,7 +3,6 @@
   
   # Introduction to Python
 *“Python is the Swiss Army knife of programming languages.”* - **The Zen of Python**
-
 </div>
 
 ---
