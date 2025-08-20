@@ -32,7 +32,7 @@ It’s widely used in:
 ## 📚 Table of Contents
 This repository is organized by daily lessons:
 
-| Topic | Day | Link |
+| Topic | Week | Link |
 | :---- | :-: | :---: |
 | Setup & Installation | 01 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2001) |
 | Data Types & Symbols | 02 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
