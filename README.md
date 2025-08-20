@@ -38,10 +38,8 @@ This repository is organized by daily lessons:
 | Data Types & Symbols | 02 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 | Variables & If-Else | 03 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2003) |
 | Range & For Loops | 04 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2004) |
-| Review Day | 05 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2005) |
-| Dictionaries | 06 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2006) |
-| Functions & Modules | 07 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2007) |
-| Build a Python Game! | 08 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2008) |
+| Dictionaries | 05 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2006) |
+| Functions & Modules | 06 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2007) |
 | NumPy, Pandas, MatPlotLib, Seaborn, SciPy, etc | Extras | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2009) |
 
 <br>
