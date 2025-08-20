@@ -42,7 +42,7 @@ This repository is organized by daily lessons:
 | Dictionaries | 06 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2006) |
 | Functions & Modules | 07 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2007) |
 | Build a Python Game! | 08 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2008) |
-| NumPy, Pandas & SciPy | 09 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2009) |
+| NumPy, Pandas, MatPlotLib, Seaborn, SciPy, etc | Extras | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2009) |
 
 <br>
 
