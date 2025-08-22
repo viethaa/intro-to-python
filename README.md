@@ -39,7 +39,7 @@ This repository is organized by daily lessons:
 | Variables & Conditionals | 03 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2003) |
 | Range & For Loops | 04 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2004) |
 | Dictionaries | 05 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2006) |
-| Functions & Modules | 06 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2007) |
+| Functions & Exceptions | 06 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2007) |
 | NumPy, Pandas, MatPlotLib, Seaborn, SciPy, etc | Extras | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2009) |
 
 <br>
