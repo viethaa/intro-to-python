@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/04.png" alt="02" width="300">
+    <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/04" alt="02" width="300">
     <h1>Ranges and For Loops</h1>
 </div>
 
