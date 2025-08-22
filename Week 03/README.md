@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://github.com/viethaa/intro-to-python/blob/72f9af9d96c6eb96629931d3e51eb3694cffedc9/assets/03" alt="02" width="300">
-    <h1>Variables & If Else Statements</h1>
+    <h1>Variables & Conditionals</h1>
 </div>
 
 `*` *Variables and If Else statements are fundamental building blocks in Python Code*
