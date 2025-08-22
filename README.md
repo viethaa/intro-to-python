@@ -34,14 +34,14 @@ This repository is organized by daily lessons:
 
 | Topic | Week | Link |
 | :---- | :-: | :---: |
-| Setup & Installation | 01 | [View](https://github.com/viethaa/intro-to-python/tree/main/Week%2001) |
-| Data Types & Symbols | 02 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
-| Variables & Conditionals | 03 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2003) |
-| Range & For Loops | 04 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2004) |
-| Dictionaries | 05 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2006) |
-| Functions & Exceptions | 06 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2007) |
+| Setup & Installation | 01 | [View]([https://github.com/viethaa/intro-to-python/tree/main/Week%2001](https://github.com/viethaa/intro-to-python/blob/main/Week%2001/README.md)) |
+| Data Types & Symbols | 02 | [View]([https://github.com/viethaa/intro-to-python/tree/main/Week%2002](https://github.com/viethaa/intro-to-python/blob/main/Week%2002/README.md)) |
+| Variables & Conditionals | 03 | [View]([https://github.com/viethaa/intro-to-python/tree/main/Day%2003](https://github.com/viethaa/intro-to-python/blob/main/Week%2003/README.md)) |
+| Range & For Loops | 04 | [View]([https://github.com/viethaa/intro-to-python/tree/main/Day%2004](https://github.com/viethaa/intro-to-python/blob/main/Week%2004/README.md)) |
+| Dictionaries | 05 | [View]([https://github.com/viethaa/intro-to-python/tree/main/Day%2006](https://github.com/viethaa/intro-to-python/blob/main/Week%2005/README.md)) |
+| Functions & Exceptions | 06 | [View]([https://github.com/viethaa/intro-to-python/tree/main/Day%2007](https://github.com/viethaa/intro-to-python/blob/main/Week%2006/Readme.md)) |
 | Make a Python Game! | 07 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2007) |
-| Python Libraries | Extras | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2009) |
+| Python Libraries | Extras | [View]([https://github.com/viethaa/intro-to-python/tree/main/Day%2009](https://github.com/viethaa/intro-to-python/blob/main/Week%20Extras/README.md)) |
 
 <br>
 
