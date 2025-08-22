@@ -34,7 +34,7 @@ This repository is organized by daily lessons:
 
 | Topic | Week | Link |
 | :---- | :-: | :---: |
-| Setup & Installation | 01 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2001) |
+| Setup & Installation | 01 | [View](https://github.com/viethaa/intro-to-python/tree/main/Week%2001) |
 | Data Types & Symbols | 02 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2002) |
 | Variables & Conditionals | 03 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2003) |
 | Range & For Loops | 04 | [View](https://github.com/viethaa/intro-to-python/tree/main/Day%2004) |
