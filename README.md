@@ -50,6 +50,8 @@ This repository is organized by daily lessons:
 - **Duong Nhat Duy**  
 - **Kyeong Doun Kim**
 
+<br>
+
 ## 📄 License
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
