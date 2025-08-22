@@ -30,7 +30,7 @@ It’s widely used in:
 <br>
 
 ## 📚 Table of Contents
-This repository is organized by daily lessons:
+This repository is organized by weekly lessons:
 
 | Topic | Week | Link |
 | :---- | :-: | :---: |
