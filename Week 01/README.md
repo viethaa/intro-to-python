@@ -51,4 +51,24 @@ print("Hello, World!")
 
 <br>
 
-❗ &nbsp; **```To run the code, press the play button on the top-left of your screen!```** 
+## ```Run Python Code: ▶️```
+
+1. **Open VS Code**  
+   - Start Visual Studio Code on your computer.
+
+<br>
+
+2. **Open the Terminal**  
+   - Press **`Ctrl` + `~`** (the little backtick key, usually under the Esc key).  
+   - A panel will open at the bottom of VS Code — this is the terminal.
+
+<br>
+
+3. **Run Your Python File**  
+   - In the terminal, type:
+
+```python
+python3 your_file_name.py
+```
+
+<br>
