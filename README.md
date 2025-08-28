@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" width="200">
+<!--   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" width="200"> -->
+  <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/icons8-python-500.png" alt="Python Logo" width="350">
   
   # Introduction to Python
 *“Python is the Swiss Army knife of programming languages.”* - **The Zen of Python**
