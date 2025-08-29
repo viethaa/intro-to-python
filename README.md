@@ -47,9 +47,9 @@ This repository is organized by weekly lessons:
 <br>
 
 ## 🧑‍💻 Contributors
-- **Ha Bach Viet**  
-- **Duong Nhat Duy**  
-- **Kyeong Doun Kim**
+- ```Ha Bach Viet```  
+- ```Duong Nhat Duy```
+- ```Kyeong Doun Kim```
 
 <br>
 
