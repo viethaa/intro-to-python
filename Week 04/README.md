@@ -10,6 +10,7 @@
 
 <br>
 
+##
 ## ```#️⃣ Looping through Numbers```
 
 `*` You can use `range()` when you want to **repeat something a certain number of time**
@@ -81,8 +82,6 @@ for i in range(2, 10, 2):
 
 ##
 
-<br>
-
 ## ```🧶 Looping through Strings```
 
 `*` You can loop through each character in a string one by one
@@ -105,9 +104,9 @@ for letter in "LanDinh":
 # h
 ```
 
-##
-
 <br>
+
+##
 
 ## ```📋 Looping through Lists```
 
@@ -127,10 +126,9 @@ for fruit in fruits:
 # banana
 # cherry
 ```
+<br>
 
 ##
-
-<br>
 
 ## ```⏸️ Loop Control```
 
