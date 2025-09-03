@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/04" alt="Ranges and For Loops" width="300">
-  <h1>Ranges and For Loops in Python</h1>
+  <h1>Ranges and For Loops</h1>
 </div>
 
 `*` *For Loops allow you to repeat a block of code multiple times*
