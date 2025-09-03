@@ -11,7 +11,7 @@
 
 <br>
 
-## ```Data Types: 📦```
+## ```📦 Data Types```
 
 `*` **Boolean** (bool)
 - Represents one of two values: `True` or `False`
@@ -84,7 +84,7 @@ person = {
 
 <br>
 
-## ```Symbols and Operators: ➕```
+## ```➕ Symbols and Operators```
 
 | Arithmetic Operators | Function               |  
 |:----------------------:|:-----------------------:|  
@@ -109,7 +109,7 @@ person = {
 
 <br>
 
-## ```Excercise: 🏋️‍♂️```
+## ```🏋️‍♂️ Excercise```
 
 `*` In Visual Code Studio, create a new file. Name it `operators.py`
 
@@ -132,7 +132,7 @@ print(student)
 
 <br>
 
-## ```Run Python Code: ▶️```
+## ```▶️ Run Python Code```
 
 1. **Open VS Code**  
    - Start Visual Studio Code on your computer.
