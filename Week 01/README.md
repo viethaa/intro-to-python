@@ -72,3 +72,10 @@ python3 your_file_name.py
 ```
 
 <br>
+
+   - In our case, our file name is `hello.py`, so we would need to type:
+
+
+```python
+python3 hello.py
+```
