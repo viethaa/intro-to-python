@@ -59,7 +59,7 @@ print("Hello, World!")
 <br>
 
 2. **Open the Terminal**  
-   - Press **`Ctrl` + `~`** (the little backtick key, usually under the Esc key).  
+   - Press **`Ctrl/Command` + `J`** (the little backtick key, usually under the Esc key).  
    - A panel will open at the bottom of VS Code — this is the terminal.
 
 <br>
