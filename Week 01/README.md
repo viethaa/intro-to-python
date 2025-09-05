@@ -65,7 +65,7 @@ print("Hello, World!")
 <br>
 
 3. **Run Your Python File**  
-   - In the terminal, type:
+   - To run your code in the terminal, run this command:
 
 ```python
 python3 your_file_name.py
@@ -73,7 +73,7 @@ python3 your_file_name.py
 
 <br>
 
-   - In our case, our file name is `hello.py`, so we would need to type:
+In our case, our file name is `hello.py`, so we would need to type:
 
 
 ```python
