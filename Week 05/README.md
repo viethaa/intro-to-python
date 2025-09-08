@@ -104,10 +104,12 @@ goat = {
 
 <br>
 
-## ```Removing Items ❌```
+## ```❌ Removing Items```
 
 `*` Removing items from a dictionary means deleting a `key-value` pair so that it **no longer exists** in the dictionary
 - Use `del` or `.pop()` or `clear()` to **remove items**.
+
+#
 
 <br>
 
@@ -123,6 +125,7 @@ removed = student.pop("age")
 print(student)   # {'name': 'Alicu', 'grade': 'A'}
 print(removed)   # 17
 ```
+#
 
 ## ```Looping Through a Dictionary 🔄```
 
