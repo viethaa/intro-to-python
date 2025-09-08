@@ -1,7 +1,4 @@
-# Seaborn Quick README (with Code, How-To, and Why It Matters)
-
-This README explains **how to create** each plot (briefly) and **why data scientists use** it (one concise paragraph per graph). After each section, there’s a space to paste the resulting image link/screenshot.
-
+# Seaborn Readme
 ---
 
 ## Data Setup
