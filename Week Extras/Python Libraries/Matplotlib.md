@@ -182,6 +182,6 @@ plt.ylabel("Annual Salary (dollars)")
 plt.show()
 ```
 
-![image](example-plots/scatterplot.png)
+![image](images/scatterplot.png)
 
 
