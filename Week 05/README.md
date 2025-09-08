@@ -20,7 +20,6 @@
 <br>
 
 Example:
-
 ```python3
 student = {
     'name': 'Khoi',
@@ -42,32 +41,52 @@ student = {
 - This way, you don't have the **manually** go through the dictionary to find the `value`.
 - In programming, always **prioritize efficiency**.
 
-### Example:
+<br>
 
+Example:
 ```python
-print(student["name"])
-print(student["age"])
+goat = {
+    "name": "Ronaldo",
+    "age": 40
+    "club": "Al Nassr FC"
+    "goals" "941"
+}
+
+print(goat["name"])
+print(goat["club"])
+print(f'{goat["name"]} is already {goat["age"]} years old, but he has scored {goat["goals"]} goals.')
+
+
+# Output:
+- Ronaldo
+- Al Nassr FC
+- Ronaldo is already 40 years old, but he has scored 941 goals.
 ```
 
-### Output:
-
-```
-Alice
-16
-```
+<br>
 
 ---
 
-## ```Adding or Updating Items ✏️```
+## ```✏️ Adding & Updating Items```
 
-* Assign a value to a key to add or update data.
+`*` You can add a new key to a dictionary by **simply assigning a value**
+- If the key already exists, assigning a new value will update it
 
-### Example:
-
+Example:
 ```python
-student["age"] = 17   # update age
-student["school"] = "High School"  # add new key
-print(student)
+goat = {
+    "name": "Ronaldo",
+    "age": 40,
+    "club": "Al Nassr FC",
+    "goals": 941
+}
+
+# Add
+goat["nationality"] = "Portuguese"
+
+# Update
+goat["age"] = 41
+
 ```
 
 ### Output:
