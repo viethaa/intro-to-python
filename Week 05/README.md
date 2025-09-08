@@ -13,7 +13,9 @@
 
 ## ```📚 Dictionary Syntax```
 
-* A dictionary is created using curly braces `{}` with keys and values.
+- Like a normal dictionary which have a word, and a meaning, a dictionary in Python has a `key`, and a `value`.
+- Start by creating a single variable to store the dictionary's contents
+- The dictionary syntax is written by using curly braces `{}`.
 
 ### Example:
 
