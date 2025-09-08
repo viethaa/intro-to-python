@@ -13,28 +13,34 @@
 
 ## ```📚 Dictionary Syntax```
 
-- Like a normal dictionary which have a word, and a meaning, a dictionary in Python has a `key`, and a `value`.
-- Start by creating a single variable to store the dictionary's contents
+`*` Like a normal dictionary which pairs a `word`, and a `meaning`, a dictionary in Python pairs a `key`, and a `value`.
+- Start by creating a **single variable** to store the dictionary's contents
 - The dictionary syntax is written by using curly braces `{}`.
 
-### Example:
+<br>
 
-```python
+Example:
+
+```python3
 student = {
-    "name": "Khoi",
-    "age": 16,
-    "grade": "A-"
+    'name': 'Khoi',
+    'age': 16,
+    'grade': 'Junior'
 }
 ```
 
-- `"name"`, `"age"`, and `"grade"` are keys  
-- `"Khoi"`, `16`, and `"A-"` are their values
+- `🔑 keys:` name, age, grade
+- `🗂️ values:` Khoi, 16, Junior
+
+<br>
 
 ---
 
-## ```Accessing Values 🔑```
+## ```🗂️ Accessing Values```
 
-* Use the key inside square brackets `[]` to get a value.
+`*` To access a `value` in a dictionary, call the `variable_name` and input the `key` pair in square brackets.
+- This way, you don't have the **manually** go through the dictionary to find the `value`.
+- In programming, always **prioritize efficiency**.
 
 ### Example:
 
