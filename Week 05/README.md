@@ -19,7 +19,7 @@
 
 <br>
 
-Example:
+💡 `Example:`
 ```python3
 student = {
     'name': 'Khoi',
