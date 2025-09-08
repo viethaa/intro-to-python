@@ -1,9 +1,17 @@
 <div align="center">
-    <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/05.png" alt="Python Logo" width="300">
+    <img src="https://github.com/viethaa/intro-to-python/blob/daadf2f6df685972f825ac92ce80dba537d56f88/assets/02" alt="02" width="300">
     <h1>Dictionaries</h1>
 </div>
 
-## ```Creating a Dictionary 📖```
+ `*` *A dictionary in Python is literally like a dictionary in your common sense*
+
+ - Dictionaries are mainly used for **storing related data together**, like grouping a person's `age`, `name`, and `email` in **one variable**.
+
+ - Organizes data in `key`, `value` pairs, making code easier to read and manage.
+
+<br>
+
+## ```📚 Dictionary Syntax```
 
 * A dictionary is created using curly braces `{}` with keys and values.
 
