@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/07" alt="Python Logo" width="300">
+    <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/05.png" alt="Python Logo" width="300">
     <h1>Dictionaries</h1>
 </div>
 
