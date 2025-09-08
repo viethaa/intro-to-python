@@ -54,9 +54,12 @@ goat = {
 print(goat["name"])
 print(goat["club"])
 print(f'{goat["name"]} is already {goat["age"]} years old, but he has scored {goat["goals"]} goals.')
+```
 
+<br>
 
-# Output:
+📤  `Output:`
+```python
 - Ronaldo
 - Al Nassr FC
 - Ronaldo is already 40 years old, but he has scored 941 goals.
