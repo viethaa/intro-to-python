@@ -33,7 +33,6 @@ student = {
 
 <br>
 
----
 
 ## ```🗂️ Accessing Values```
 
@@ -43,7 +42,7 @@ student = {
 
 <br>
 
-Example:
+💡 `Example:`
 ```python
 goat = {
     "name": "Ronaldo",
@@ -65,14 +64,15 @@ print(f'{goat["name"]} is already {goat["age"]} years old, but he has scored {go
 
 <br>
 
----
-
 ## ```✏️ Adding & Updating Items```
 
 `*` You can add a new key to a dictionary by **simply assigning a value**
-- If the key already exists, assigning a new value will update it
+- If the `key` **already exists**, assigning a new `value` will update it
+- If a `key` **does not yet exist**, assigning a new `value` and will add a new `key-value pair`
 
-Example:
+<br>
+
+💡 `Example:`
 ```python
 goat = {
     "name": "Ronaldo",
@@ -89,35 +89,40 @@ goat["age"] = 41
 
 ```
 
-### Output:
+<br>
 
-```
-{'name': 'Alice', 'age': 17, 'grade': 'A', 'school': 'High School'}
+📖 `Updated Dictionary:`
+```python
+goat = {
+    "name": "Ronaldo",
+    "age": 41,
+    "club": "Al Nassr FC",
+    "goals": 941,
+    "nationality": "Portugese"
+}
 ```
 
----
+<br>
 
 ## ```Removing Items ❌```
 
-* Use `del` or `.pop()` to remove items.
+`*` Removing items from a dictionary means deleting a `key-value` pair so that it **no longer exists** in the dictionary
+- Use `del` or `.pop()` or `clear()` to **remove items**.
 
-### Example:
+<br>
+
+`pop()`
+- Removes a specific key and returns its value.
+
+<br>
 
 ```python
-del student["grade"]
-school = student.pop("school")
-print(student)
-print("Removed:", school)
-```
+student = {"name": "Alicu", "age": 17, "grade": "A"}
+removed = student.pop("age")  
 
-### Output:
-
+print(student)   # {'name': 'Alicu', 'grade': 'A'}
+print(removed)   # 17
 ```
-{'name': 'Alice', 'age': 17}
-Removed: High School
-```
-
----
 
 ## ```Looping Through a Dictionary 🔄```
 
