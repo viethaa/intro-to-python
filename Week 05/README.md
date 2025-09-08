@@ -3,7 +3,7 @@
     <h1>Dictionaries</h1>
 </div>
 
- `*` *A dictionary in Python is literally like a dictionary in your common sense*
+ `*` *A dictionary in Python is literally like a dictionary in your common sense:*
 
  - Dictionaries are mainly used for **storing related data together**, like grouping a person's `age`, `name`, and `email` in **one variable**.
 
