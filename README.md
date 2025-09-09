@@ -36,7 +36,7 @@ This repository is organized by weekly lessons:
 | Topic | Week | Link |
 | :---- | :-: | :---: |
 | Setup & Installation | 01 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2001/README.md) |
-| Data Types & Symbols | 02 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2002/README.md) |
+| Data Types & Operators | 02 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2002/README.md) |
 | Variables & Conditionals | 03 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2003/README.md) |
 | Range & For Loops | 04 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2004/README.md) |
 | Dictionaries | 05 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2005/README.md) |
