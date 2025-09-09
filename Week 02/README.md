@@ -111,13 +111,18 @@ person = {
 
 ## ```🏋️‍♂️ Excercise```
 
-`*` - Write a program that caculates `volume` and `surface area`
+`*` Write a program that caculates `volume` and `surface area`
 
-- Ask the user to input for `height` and `radius`
-- Caculate the `volume` and `surface area` using mathematic operations
-- - `Volume` = π * radius² * height
-- - `Radius` = 2π * radius * (radius + height)
-- Print out the result
+- Ask the user to **input** for `height` and `radius` 
+- Caculate the `volume` and `surface area` using **mathematic operations**
+- **Print** out the result
+
+<br>
+
+- Volume: `π * radius² * height`
+- Radius: `2π * radius * (radius + height)`
+
+<br>
   
 ```python
 #Example Output:
