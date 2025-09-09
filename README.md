@@ -17,7 +17,8 @@ It’s widely used in:
 - 📊 Data Science  
 - 🤖 Artificial Intelligence & Machine Learning  
 - ⚙️ Automation  
-- 🧪 Scientific Computing
+- 🎮 Game Development
+- 🕵️‍♀️ Cyber Security & Hacking
 
 <br>
 
