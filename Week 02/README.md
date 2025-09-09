@@ -111,21 +111,22 @@ person = {
 
 ## ```🏋️‍♂️ Excercise```
 
-`*` In Visual Code Studio, create a new file. Name it `operators.py`
+`*` - Write a program that caculates `volume` and `surface area`
 
-- Write a dictionary that includes the following data types in it: `str`, `int`, `float`, `bool`
-- Example *(DO NOT COPY)*:
+- Ask the user to input for `height` and `radius`
+- Caculate the `volume` and `surface area` using mathematic operations
+- - `Volume` = π * radius² * height
+- - `Radius` = 2π * radius * (radius + height)
+- Print out the result
+  
 ```python
-student = {
-  "name": "Lan Dinh",   #str
-  "age": 16,            #int
-  "height": 5.6,        #float
-  "loves_food": True    #bool
-}
-```
+#Example Output:
 
-```python
-print(student)
+Enter your height:
+Enter your radius:
+
+--> The radius is: __
+--> The volume is: __
 ```
 
 ---
