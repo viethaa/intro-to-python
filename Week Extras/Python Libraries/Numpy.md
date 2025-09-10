@@ -1,4 +1,4 @@
-# NumPy Tutorial (Student‑Friendly README)
+# NumPy Tutorial 
 
 A hands‑on guide built from real notes. Every snippet below is **runnable** and grouped by topic. Explanations tell you what each line does; **you run cells in your own notebook to see output**.
 
