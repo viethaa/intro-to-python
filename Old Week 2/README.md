@@ -1,240 +1,160 @@
 <div align="center">
-    <img src="https://github.com/viethaa/intro-to-python/blob/72f9af9d96c6eb96629931d3e51eb3694cffedc9/assets/03" alt="02" width="300">
-    <h1>Variables & Conditionals</h1>
+    <img src="https://github.com/viethaa/intro-to-python/blob/daadf2f6df685972f825ac92ce80dba537d56f88/assets/02" alt="02" width="300">
+    <h1>Data Types & Symbols</h1>
 </div>
 
-`*` *Variables and If Else statements are fundamental building blocks in Python Code*
+ `*` *Understanding data types and symbols is essential for writing effective Python code.*
 
-* `Variables 🪣` store data, while `if-else statements ⚖️` help make decisions based on conditions.
-* Understanding these concepts will allow you program in Python.
+ - `Data types 📦` like integers, strings, and lists are used to store and manipulate data efficiently.
 
-<br>
-
-## `Variables 🪣`
-
-`*` Variables are used to store data in Python. They act as containers for values that can be changed throughout the program.
-
-* Variable names must start with a `letter` or an `underscore _`
-* Variable names cannot start with a number
-* Variable names are case-sensitive (`age` and `Age` are different)
+ - `Symbols and Operators ➕` such as `+`, `==`, and `%` are used for performing arithmetic, comparison, and logical operations.
 
 <br>
 
-Example:
+## ```📦 Data Types```
 
+`*` **Boolean** (bool)
+- Represents one of two values: `True` or `False`
+- Example:
 ```python
-name = "Kanye"  
-age = "17"   
+is_active = True
+is_active = False
 ```
-
-* `name` is the variable, "Kanye" is the str value
-* `age` is the variable, 17 is the int value
-
 <br>
 
-### Examples
-
-**Basics: strings vs. integers, and `type()`**
-
+`*` **String** (str)
+- Represents a sequence of characters enclosed in single `(')`, double `(")` quotes
+- Example:
 ```python
-name = "Kanye"      # string (text)
-age = 17            # integer (number)
-
-print(name)
-print(age)
-print(type(name))   # -> <class 'str'>
-print(type(age))    # -> <class 'int'>
-```
-
-**Reassignment and dynamic typing**
-
-```python
-x = 10
-print("x is:", x)   # -> x is: 10
-
-x = x + 5
-print("x is now:", x)  # -> x is now: 15
-
-x = "now I'm text"
-print("x became:", x)  # -> x became: now I'm text
-print(type(x))         # -> <class 'str'>
-```
-
-**Multiple assignment & swapping**
-
-```python
-a, b = 1, 2
-print("before:", a, b)   # -> before: 1 2
-a, b = b, a
-print("after: ", a, b)   # -> after:  2 1
+name = "Lan Dinh"
+food = 'caesar wrap'
 ```
 
 <br>
 
-## `If Else Statements 🪣`
-
-`*` If-Else statements are used for decision-making in Python. They allow the program to execute different code blocks based on conditions.
-
-### Syntax of If Else:
-
+`*` **Integer** (int)
+- Represents whole numbers (`pos`, `neg`, or `zero`)
+- Example:
 ```python
-if condition = True                  
-    print("The condition is True")     
-
-else:                             
-    print("The condition is False")    
-```
-
-* If `condition` is **True**, print "The condition is True"
-* Otherwise, print "The condition is False"
-
-<br>
-
-### Syntax of Elif:
-
-`*` Sometimes, multiple conditions needs to be checked. This is where `elif` comes in.
-
-```python
-score = 85
-
-if score >= 90:
-    print("Grade: A")
-
-elif score >= 80:
-    print("Grade: B")
-
-elif score >= 70:
-    print("Grade: C")
-
-else:
-    print("Grade: F")   
+age = 16
+score = -200
 ```
 
 <br>
 
-> **Note:** In Python, `=` assigns a value to a variable, while `==` compares two values for equality. Each `if`, `elif`, and `else` line ends with a colon `:` and the following block is indented.
-
-### Examples
-
-**Minimal if/else**
-
+`*` **Float** (float)
+- Represents `decimal` or `floating-point` numbers
+- Example:
 ```python
-is_raining = True
-
-if is_raining:
-    print("Bring an umbrella!")
-else:
-    print("Sky's clear. Sunglasses time.")
-```
-
-**Using comparisons**
-
-```python
-age = 18
-
-if age >= 18:
-    print("Adult ticket")
-else:
-    print("Youth ticket")
-```
-
-**Elif chain with ranges**
-
-```python
-temp_c = int(input("Enter the temperature: "))
-
-if temp_c >= 35:
-    print("Heat warning!")
-elif temp_c >= 25:
-    print("Warm")
-elif temp_c >= 15:
-    print("Mild")
-else:
-    print("Chilly")
-```
-
-**Truthy / Falsy values**
-
-```python
-# Empty values are "falsy"; non-empty are "truthy".
-name = ""
-if name:
-    print("We have a name.")
-else:
-    print("Name is missing.")   # -> Name is missing.
-
-items = [1, 2, 3]
-if items:
-    print("The list has stuff.") # -> The list has stuff.
-```
-
-**Combining conditions with `and` / `or`**
-
-```python
-has_id = True
-age = 20
-
-if has_id and age >= 18:
-    print("You may enter.")
-elif not has_id and age >= 18:
-    print("Come back with an ID.")
-else:
-    print("Too young.")
-```
-
-**One-line (ternary) conditional**
-
-```python
-score = int(input())
-result = "pass" if score >= 60 else "fail"
-print(result)  
+pi = 3.14
+temperature = -5.8
 ```
 
 <br>
 
-## `Excercise 01: Can You Enter The Club? 🎉`
-
-`*` Check if a person is old enough to enter a club 
-
-* In Visual Code Studio, create a new file.
-* Ask for user input:
-
+`*` **List** (list)
+- Represents `ordered` and `mutable` (can change) collection of elements
+- Example:
 ```python
-age = int(input("Enter your age: "))
+fruits = ["Apple", "Banana", "Strawberry"]
+numbers = [1, 2, 3, 4, 5]
 ```
 
-* Write an `If Else statement` to check if the age is older or younger than 18
+<br> 
 
-<br>
-
-**`->`** If the user age is > 18:
-
+`*` **Tuple** (tuple)
+- Represents `ordered` and `immutable` (cannot change) collection of elements
+- Example:
 ```python
-print("Welcome! You may enter")
+coordinates = [10.0, 20.0]
 ```
 
 <br>
 
-**`->`** If the user age is < 18:
-
+`*` **Dictionary** (dict)
+- Represents a key-value pair collection
+- Example:
 ```python
-print("Sorry, you must be atleast 18")
+person = {
+  "name": "Bob",
+  "age": 16,
+  "is_cool": True
+}
 ```
 
 <br>
+
+## ```➕ Symbols and Operators```
+
+| Arithmetic Operators | Function               |  
+|:----------------------:|:-----------------------:|  
+| `+`                 | Addition              |  
+| `-`                 | Subtraction           |  
+| `*`                 | Multiplication        |  
+| `/`                 | Division              |  
+| `//`                | Floor Division        |  
+| `%`                 | Modulus / Remainder   | 
+| `**`                 | Exponent   | 
+
 <br>
 
-## `Excercise 02: Odd or Even? 🏋️‍♂️`
+| Comparison Operators | Function               |  
+|:----------------------:|:-----------------------:|  
+| `==`                 | Equal to              |  
+| `!=`                 | Not equal to          |  
+| `>`                 | Greater than        |  
+| `<`                 | Less than              |  
+| `>=`                | Greater or equal to        |  
+| `<=`                 | Less or equal to   | 
 
-`*` Check if the number is odd or even based on user input   📥
+<br>
 
-* In Visual Code Studio, create a new file. Name it `if_else.py`
-* Ask for user input:
+## ```🏋️‍♂️ Excercise```
 
+`*` In Visual Code Studio, create a new file. Name it `operators.py`
+
+- Write a dictionary that includes the following data types in it: `str`, `int`, `float`, `bool`
+- Example *(DO NOT COPY)*:
 ```python
-num = int(input("Enter a number: "))  
+student = {
+  "name": "Lan Dinh",   #str
+  "age": 16,            #int
+  "height": 5.6,        #float
+  "loves_food": True    #bool
+}
 ```
 
-* Write an If Else statement to check if the number is odd or even
+```python
+print(student)
+```
 
-`❗`   **`Hint: Use the operator: Modulus / Remainder (%)`**
+---
+
+<br>
+
+## ```▶️ Run Python Code```
+
+1. **Open VS Code**  
+   - Start Visual Studio Code on your computer.
+
+<br>
+
+2. **Open the Terminal**  
+   - Press **`Ctrl/Command` + `J`** (the little backtick key, usually under the Esc key).  
+   - A panel will open at the bottom of VS Code — this is the terminal.
+
+<br>
+
+3. **Run Your Python File**  
+   - In the terminal, type:
+
+```python
+python3 your_file_name.py
+```
+
+<br>
+
+4. **Check your results**  
+   - Compare and check results if they are correct!
+
+---
