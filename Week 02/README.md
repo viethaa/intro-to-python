@@ -1,0 +1,240 @@
+<div align="center">
+    <img src="https://github.com/viethaa/intro-to-python/blob/72f9af9d96c6eb96629931d3e51eb3694cffedc9/assets/03" alt="02" width="300">
+    <h1>Variables & Conditionals</h1>
+</div>
+
+`*` *Variables and If Else statements are fundamental building blocks in Python Code*
+
+* `Variables 🪣` store data, while `if-else statements ⚖️` help make decisions based on conditions.
+* Understanding these concepts will allow you program in Python.
+
+<br>
+
+## `Variables 🪣`
+
+`*` Variables are used to store data in Python. They act as containers for values that can be changed throughout the program.
+
+* Variable names must start with a `letter` or an `underscore _`
+* Variable names cannot start with a number
+* Variable names are case-sensitive (`age` and `Age` are different)
+
+<br>
+
+Example:
+
+```python
+name = "Kanye"  
+age = "17"   
+```
+
+* `name` is the variable, "Kanye" is the str value
+* `age` is the variable, 17 is the int value
+
+<br>
+
+### Examples
+
+**Basics: strings vs. integers, and `type()`**
+
+```python
+name = "Kanye"      # string (text)
+age = 17            # integer (number)
+
+print(name)
+print(age)
+print(type(name))   # -> <class 'str'>
+print(type(age))    # -> <class 'int'>
+```
+
+**Reassignment and dynamic typing**
+
+```python
+x = 10
+print("x is:", x)   # -> x is: 10
+
+x = x + 5
+print("x is now:", x)  # -> x is now: 15
+
+x = "now I'm text"
+print("x became:", x)  # -> x became: now I'm text
+print(type(x))         # -> <class 'str'>
+```
+
+**Multiple assignment & swapping**
+
+```python
+a, b = 1, 2
+print("before:", a, b)   # -> before: 1 2
+a, b = b, a
+print("after: ", a, b)   # -> after:  2 1
+```
+
+<br>
+
+## `If Else Statements 🪣`
+
+`*` If-Else statements are used for decision-making in Python. They allow the program to execute different code blocks based on conditions.
+
+### Syntax of If Else:
+
+```python
+if condition = True                  
+    print("The condition is True")     
+
+else:                             
+    print("The condition is False")    
+```
+
+* If `condition` is **True**, print "The condition is True"
+* Otherwise, print "The condition is False"
+
+<br>
+
+### Syntax of Elif:
+
+`*` Sometimes, multiple conditions needs to be checked. This is where `elif` comes in.
+
+```python
+score = 85
+
+if score >= 90:
+    print("Grade: A")
+
+elif score >= 80:
+    print("Grade: B")
+
+elif score >= 70:
+    print("Grade: C")
+
+else:
+    print("Grade: F")   
+```
+
+<br>
+
+> **Note:** In Python, `=` assigns a value to a variable, while `==` compares two values for equality. Each `if`, `elif`, and `else` line ends with a colon `:` and the following block is indented.
+
+### Examples
+
+**Minimal if/else**
+
+```python
+is_raining = True
+
+if is_raining:
+    print("Bring an umbrella!")
+else:
+    print("Sky's clear. Sunglasses time.")
+```
+
+**Using comparisons**
+
+```python
+age = 18
+
+if age >= 18:
+    print("Adult ticket")
+else:
+    print("Youth ticket")
+```
+
+**Elif chain with ranges**
+
+```python
+temp_c = int(input("Enter the temperature: "))
+
+if temp_c >= 35:
+    print("Heat warning!")
+elif temp_c >= 25:
+    print("Warm")
+elif temp_c >= 15:
+    print("Mild")
+else:
+    print("Chilly")
+```
+
+**Truthy / Falsy values**
+
+```python
+# Empty values are "falsy"; non-empty are "truthy".
+name = ""
+if name:
+    print("We have a name.")
+else:
+    print("Name is missing.")   # -> Name is missing.
+
+items = [1, 2, 3]
+if items:
+    print("The list has stuff.") # -> The list has stuff.
+```
+
+**Combining conditions with `and` / `or`**
+
+```python
+has_id = True
+age = 20
+
+if has_id and age >= 18:
+    print("You may enter.")
+elif not has_id and age >= 18:
+    print("Come back with an ID.")
+else:
+    print("Too young.")
+```
+
+**One-line (ternary) conditional**
+
+```python
+score = int(input())
+result = "pass" if score >= 60 else "fail"
+print(result)  
+```
+
+<br>
+
+## `Excercise 01: Can You Enter The Club? 🎉`
+
+`*` Check if a person is old enough to enter a club 
+
+* In Visual Code Studio, create a new file.
+* Ask for user input:
+
+```python
+age = int(input("Enter your age: "))
+```
+
+* Write an `If Else statement` to check if the age is older or younger than 18
+
+<br>
+
+**`->`** If the user age is > 18:
+
+```python
+print("Welcome! You may enter")
+```
+
+<br>
+
+**`->`** If the user age is < 18:
+
+```python
+print("Sorry, you must be atleast 18")
+```
+
+<br>
+<br>
+
+## `Excercise 02: Odd or Even? 🏋️‍♂️`
+
+`*` Check if the number is odd or even based on user input   📥
+
+* In Visual Code Studio, create a new file. Name it `if_else.py`
+* Ask for user input:
+
+```python
+num = int(input("Enter a number: "))  
+```
+
+* Write an If Else statement to check if the number is odd or even
+
+`❗`   **`Hint: Use the operator: Modulus / Remainder (%)`**
