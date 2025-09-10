@@ -2,7 +2,7 @@
     <img src="https://github.com/viethaa/intro-to-python/blob/e8aaac496c74797dae9a9b5d2938893c9c90729b/assets/06" alt="Python Logo" width="300">
     <h1>Functions</h1>
 </div>
-
+ 
 `*` *Functions let us organize code into reusable blocks that make programs easier to read and maintain.*
 
 - `Functions` group code into blocks that perform specific tasks.  

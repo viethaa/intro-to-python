@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" width="200">
+<!--   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" width="200"> -->
+  <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/icons8-python-500.png" alt="Python Logo" width="350">
   
   # Introduction to Python
 *“Python is the Swiss Army knife of programming languages.”* - **The Zen of Python**
@@ -16,7 +17,8 @@ It’s widely used in:
 - 📊 Data Science  
 - 🤖 Artificial Intelligence & Machine Learning  
 - ⚙️ Automation  
-- 🧪 Scientific Computing
+- 🎮 Game Development
+- 🕵️‍♀️ Cyber Security & Hacking
 
 <br>
 
@@ -35,7 +37,7 @@ This repository is organized by weekly lessons:
 | Topic | Week | Link |
 | :---- | :-: | :---: |
 | Setup & Installation | 01 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2001/README.md) |
-| Data Types & Symbols | 02 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2002/README.md) |
+| Data Types & Operators | 02 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2002/README.md) |
 | Variables & Conditionals | 03 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2003/README.md) |
 | Range & For Loops | 04 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2004/README.md) |
 | Dictionaries | 05 | [View](https://github.com/viethaa/intro-to-python/blob/main/Week%2005/README.md) |
@@ -46,9 +48,9 @@ This repository is organized by weekly lessons:
 <br>
 
 ## 🧑‍💻 Contributors
-- **Ha Bach Viet**  
-- **Duong Nhat Duy**  
-- **Kyeong Doun Kim**
+- ```Ha Bach Viet```  
+- ```Duong Nhat Duy```
+- ```Kyeong Doun Kim```
 
 <br>
 

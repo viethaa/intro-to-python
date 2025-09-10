@@ -59,16 +59,23 @@ print("Hello, World!")
 <br>
 
 2. **Open the Terminal**  
-   - Press **`Ctrl` + `~`** (the little backtick key, usually under the Esc key).  
+   - To open terminal, simply type the command: **`Ctrl/Command` + `J`**  
    - A panel will open at the bottom of VS Code — this is the terminal.
 
 <br>
 
 3. **Run Your Python File**  
-   - In the terminal, type:
+   - To run your code in the terminal, run this command:
 
 ```python
 python3 your_file_name.py
 ```
 
 <br>
+
+In our case, our file name is `hello.py`, so we would need to type:
+
+
+```python
+python3 hello.py
+```
