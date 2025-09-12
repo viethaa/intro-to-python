@@ -153,7 +153,7 @@ else:
 
 ### Examples
 
-**Minimal if/else**
+**Simple if/else**
 
 ```python
 is_raining = True
@@ -229,34 +229,74 @@ print(result)
 
 <br>
 
-## `Excercise 01: Can You Enter The Club? 🎉`
+## `Excercise 01: What grade did you get? 🎉`
 
-`*` Check if a person is old enough to enter a club 
+`*` Check the powerschool grade that the user got
 
 * In Visual Code Studio, create a new file.
 * Ask for user input:
 
 ```python
-age = int(input("Enter your age: "))
+grade = int(input("Enter your grade (%): "))  # use 'grade' for clarity
 ```
 
-* Write an `If Else statement` to check if the age is older or younger than 18
+* Write an `If Else statement` to check if the grade falls between these values:
+
+| Number Grade | Letter Grade               |  
+|:----------------------:|:-----------------------:|  
+| 92-100                | A   |  
+| 85-91                 | A-  |  
+| 75-84                 | B+  |  
+| 65-74                 | B   |  
+| 55-64                 | B-  |  
+| 45-54                 | C+  | 
+| 35-44                 | C   | 
+| 25-34                 | C-  | 
+| 15-24                 | D+  |
+| 5-14                  | D   |
+| 0                     | F   | 
+
+> 💡 **Tip:** Test numbers in between 2 grades (like 91, 92, 84, 85) to make sure your comparisons (`>=`, `<`) work correctly.
+
+<br>
+<h3>For the sake of time you only need to do A, A-, B+, and B<h3>
+
+**`->`** If the number grade is > 91:
+
+```python
+print("Congratulations! You got an A")
+```
+
+**`->`** If the number grade is < 85 and >= 75:
+
+```python
+print("Well done! You got a B+")
+```
 
 <br>
 
-**`->`** If the user age is > 18:
+> ⭐ **Bonus Challenge:**  
+> - Add checks to make sure the grade is between 0 and 100.  
+> - Print a friendly error message if someone enters a number outside this range.
+
+<details>
+<summary><h4>💡 Click to reveal a sample solution</h4></summary>
 
 ```python
-print("Welcome! You may enter")
+grade = int(input("Enter your grade (%): "))
+
+if grade > 91:
+    print("Congratulations! You got an A")
+elif grade >= 85:
+    print("Great job! You got an A-")
+elif grade >= 75:
+    print("Nice work! You got a B+")
+elif grade >= 65:
+    print("You got a B")
+else:
+    print("Keep trying! Below B range.")
 ```
-
-<br>
-
-**`->`** If the user age is < 18:
-
-```python
-print("Sorry, you must be atleast 18")
-```
+</details>
 
 <br>
 <br>
@@ -275,3 +315,16 @@ num = int(input("Enter a number: "))
 * Write an If Else statement to check if the number is odd or even
 
 `❗`   **`Hint: Use the operator: Modulus / Remainder (%)`**
+
+<details>
+<summary><h4>💡 Click to reveal a sample solution</h4></summary>
+
+```python
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("The number is Even")
+else:
+    print("The number is Odd")
+```
+</details>
