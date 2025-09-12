@@ -71,6 +71,43 @@ print("after: ", a, b)   # -> after:  2 1
 
 <br>
 
+### Working with Parts of Data
+
+You can use **indexes** and **slicing** to work with parts of a string (or later, a list).
+
+```python
+text = "Python"
+print(text[0])     # -> 'P' (first character, index starts at 0)
+print(text[-1])    # -> 'n' (last character)
+print(text[1:4])   # -> 'yth' (characters from index 1 up to but not including 4)
+print(text[:3])    # -> 'Pyt' (from start to index 3)
+print(text[3:])    # -> 'hon' (from index 3 to the end)
+```
+
+You can also find the length of a string or list:
+```python
+len(text)          # -> 6
+```
+
+These same ideas of indexing and slicing also work with **lists**, which are containers that hold multiple values.
+
+<br>
+
+## `Lists 📝` (Intro)
+
+`*` Lists are used to store multiple items in a single variable. They are ordered and changeable.
+
+Example:
+
+```python
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])       # -> apple
+print(fruits[1:3])     # -> ['banana', 'cherry']
+print(len(fruits))     # -> 3
+```
+
+<br>
+
 ## `If Else Statements 🪣`
 
 `*` If-Else statements are used for decision-making in Python. They allow the program to execute different code blocks based on conditions.
