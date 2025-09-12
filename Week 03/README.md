@@ -1,240 +1,349 @@
 <div align="center">
-    <img src="https://github.com/viethaa/intro-to-python/blob/72f9af9d96c6eb96629931d3e51eb3694cffedc9/assets/03" alt="02" width="300">
-    <h1>Variables & Conditionals</h1>
+  <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/03" alt="Ranges and For Loops" width="300">
+  <h1>Ranges and For Loops</h1>
 </div>
 
-`*` *Variables and If Else statements are fundamental building blocks in Python Code*
+`*` *For Loops allow you to repeat a block of code multiple times*
 
-* `Variables 🪣` store data, while `if-else statements ⚖️` help make decisions based on conditions.
-* Understanding these concepts will allow you program in Python.
-
-<br>
-
-## `Variables 🪣`
-
-`*` Variables are used to store data in Python. They act as containers for values that can be changed throughout the program.
-
-* Variable names must start with a `letter` or an `underscore _`
-* Variable names cannot start with a number
-* Variable names are case-sensitive (`age` and `Age` are different)
+* `For Loops 🔄` helps repeat a sequence, like a `list`, `string`, or `range of numbers`
+* They **automate repetitive tasks** and make your code shorter and more efficient
 
 <br>
 
-Example:
+##
 
-```python
-name = "Kanye"  
-age = "17"   
-```
+## `#️⃣ Looping through Numbers`
 
-* `name` is the variable, "Kanye" is the str value
-* `age` is the variable, 17 is the int value
+`*` You can use `range()` when you want to **repeat something a certain number of time**
+
+* There are **three** ways you can use range to loops through numbers
+* Choose the correct one for the most appropriate situations
 
 <br>
 
-### Examples
+##
 
-**Basics: strings vs. integers, and `type()`**
+🌟 `range(n)` : **starts at 0, and goes up to n-1**
 
-```python
-name = "Kanye"      # string (text)
-age = 17            # integer (number)
-
-print(name)
-print(age)
-print(type(name))   # -> <class 'str'>
-print(type(age))    # -> <class 'int'>
-```
-
-**Reassignment and dynamic typing**
-
-```python
-x = 10
-print("x is:", x)   # -> x is: 10
-
-x = x + 5
-print("x is now:", x)  # -> x is now: 15
-
-x = "now I'm text"
-print("x became:", x)  # -> x became: now I'm text
-print(type(x))         # -> <class 'str'>
-```
-
-**Multiple assignment & swapping**
-
-```python
-a, b = 1, 2
-print("before:", a, b)   # -> before: 1 2
-a, b = b, a
-print("after: ", a, b)   # -> after:  2 1
+```python3
+for i in range(5):
+  print(i)
 ```
 
 <br>
 
-## `If Else Statements 🪣`
+🕹️ `Output:`
 
-`*` If-Else statements are used for decision-making in Python. They allow the program to execute different code blocks based on conditions.
-
-### Syntax of If Else:
-
-```python
-if condition = True                  
-    print("The condition is True")     
-
-else:                             
-    print("The condition is False")    
+```python3
+# 0
+# 1
+# 2
+# 3
+# 4
 ```
-
-* If `condition` is **True**, print "The condition is True"
-* Otherwise, print "The condition is False"
 
 <br>
 
-### Syntax of Elif:
+##
 
-`*` Sometimes, multiple conditions needs to be checked. This is where `elif` comes in.
+🌟 `range(start, stop)` : **Loops from start to stop -1**
 
-```python
-score = 85
+```python3
+for i in range(3, 7):
+  print(i)
+```
 
-if score >= 90:
-    print("Grade: A")
+<br>
 
-elif score >= 80:
-    print("Grade: B")
+🕹️ `Output:`
 
-elif score >= 70:
-    print("Grade: C")
+```python3
+# 3
+# 4
+# 5
+# 6
+```
 
+<br>
+
+##
+
+🌟 `range(start, stop, step)` : **Loops from start to stop -1, step is the amount of increment**
+
+```python3
+for i in range(2, 10, 2):
+  print(i)
+```
+
+<br>
+
+🕹️ `Output:`
+
+```python3
+# 2
+# 4
+# 6
+# 8
+```
+
+<br>
+
+##
+
+## `🧶 Looping through Strings`
+
+`*` You can loop through each character in a string one by one
+
+```python3
+for letter in "LanDinh":
+  print(letter)
+```
+
+<br>
+
+`Output:`
+
+```python3
+# L
+# a
+# n
+# D
+# i
+# n
+# h
+```
+
+<br>
+
+##
+
+## `📋 Looping through Lists`
+
+`*` You can loop through items stored in a list
+
+```python3
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+  print(fruit)
+```
+
+<br>
+
+`Output:`
+
+```python3
+# apple
+# banana
+# cherry
+```
+
+<br>
+
+##
+
+## `⏸️ Loop Control`
+
+`*` Python gives you special keywords to control the flow of a loop beyond the normal sequence
+
+* `Break 🔴`
+* `Continue 🔁`
+* `Else ✅`
+
+<br>
+
+##
+
+🔴 `Break` : **Stops the Loop Early**
+
+* Ends the loop immediately, even if it hasn't finished all iterations.
+
+```python3
+for i in range(10):
+  if i == 5:
+    break
+  print(i)
+```
+
+<br>
+
+🕹️ `Output:`
+
+```python3
+# 0
+# 1
+# 2
+# 3
+# 4
+```
+
+<br>
+
+##
+
+🔁 `Continue` : **Skip to Next Iteration**
+
+* Skips the current loop run and jumps to the next one
+
+```python3
+for i in range(5):
+  if i == 2:
+    continue
+  print(i)
+```
+
+<br>
+
+🕹️ `Output:`
+
+```python3
+# 0
+# 1
+# 3
+# 4
+```
+
+<br>
+
+##
+
+✅ `Else` : **Run Code After a Loop Finishes**
+
+* **Executes once after the loop ends if the loop was not broken by the break**
+
+```python3
+for i in range(3):
+  print(i)
 else:
-    print("Grade: F")   
+  print("Loop finished without break")
 ```
 
 <br>
 
-> **Note:** In Python, `=` assigns a value to a variable, while `==` compares two values for equality. Each `if`, `elif`, and `else` line ends with a colon `:` and the following block is indented.
+🕹️ `Output:`
 
-### Examples
+```python3
+# 0
+# 1
+# 2
+# Loop finished without break
+```
 
-**Minimal if/else**
+<br>
 
-```python
-is_raining = True
+---
 
-if is_raining:
-    print("Bring an umbrella!")
+## Examples
+
+```python3
+# Example 1 — Repeat something n times
+for _ in range(3):
+    print("Hello, loop!")
+```
+
+```python3
+# Example 2 — Count down with a negative step
+for i in range(5, 0, -1):
+    print(i)
+print("Liftoff!")
+```
+
+```python3
+# Example 3 — Even numbers using start/stop/step
+# (stop is exclusive, so use 11 to include 10)
+for i in range(2, 11, 2):
+    print(i)
+```
+
+```python3
+# Example 4 — Loop through a string and count vowels
+text = "LanDinh"
+vowels = 0
+for ch in text:
+    if ch.lower() in "aeiou":
+        vowels += 1
+print("Vowel count:", vowels)
+```
+
+```python3
+# Example 5 — Using break/else to search
+colors = ["red", "green", "blue"]
+target = "green"
+
+for c in colors:
+    if c == target:
+        print("Found:", c)
+        break
 else:
-    print("Sky's clear. Sunglasses time.")
+    # runs only if the loop wasn't broken
+    print("Not found")
 ```
 
-**Using comparisons**
+```python3
+# Example 6 — Using continue to skip certain items
+for i in range(1, 6):
+    if i == 3:
+        continue  # skip printing 3
+    print(i)
+```
 
-```python
-age = 18
+---
 
-if age >= 18:
-    print("Adult ticket")
+## 🧪 Challenge Exercise
+
+Build a filtered sum with loop control:
+
+* Iterate from **1** to **100**.
+* **Skip** numbers divisible by **both 3 and 5** using `continue`.
+* **Add** numbers divisible by **3 or 5** (but **not both**) to a running `total`.
+* If `total` **exceeds 400**, use `break` and print `"Stopped early at {i}"`.
+* If the loop finishes without breaking, use the loop's `else` to print `"Clean finish"`.
+* After the loop, print the final sum as `Total = X`.
+
+**Expected output (deterministic with these rules):**
+
+```
+Stopped early at 42
+Total = 405
+```
+
+**Starter code:**
+
+```python3
+total = 0
+
+for i in range(1, 101):
+    # your code here
+    pass
 else:
-    print("Youth ticket")
+    # your code here
+    pass
+
+print("Total =", total)
 ```
 
-**Elif chain with ranges**
+**One possible solution (peek only after trying!):**
 
-```python
-temp_c = int(input("Enter the temperature: "))
+```python3
+total = 0
 
-if temp_c >= 35:
-    print("Heat warning!")
-elif temp_c >= 25:
-    print("Warm")
-elif temp_c >= 15:
-    print("Mild")
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        continue
+    if (i % 3 == 0) ^ (i % 5 == 0):  # xor: divisible by 3 or 5, but not both
+        total += i
+    if total > 400:
+        print(f"Stopped early at {i}")
+        break
 else:
-    print("Chilly")
+    print("Clean finish")
+
+print("Total =", total)
 ```
 
-**Truthy / Falsy values**
+---
 
-```python
-# Empty values are "falsy"; non-empty are "truthy".
-name = ""
-if name:
-    print("We have a name.")
-else:
-    print("Name is missing.")   # -> Name is missing.
+### Tiny fixes to keep student output consistent
 
-items = [1, 2, 3]
-if items:
-    print("The list has stuff.") # -> The list has stuff.
-```
-
-**Combining conditions with `and` / `or`**
-
-```python
-has_id = True
-age = 20
-
-if has_id and age >= 18:
-    print("You may enter.")
-elif not has_id and age >= 18:
-    print("Come back with an ID.")
-else:
-    print("Too young.")
-```
-
-**One-line (ternary) conditional**
-
-```python
-score = int(input())
-result = "pass" if score >= 60 else "fail"
-print(result)  
-```
-
-<br>
-
-## `Excercise 01: Can You Enter The Club? 🎉`
-
-`*` Check if a person is old enough to enter a club 
-
-* In Visual Code Studio, create a new file.
-* Ask for user input:
-
-```python
-age = int(input("Enter your age: "))
-```
-
-* Write an `If Else statement` to check if the age is older or younger than 18
-
-<br>
-
-**`->`** If the user age is > 18:
-
-```python
-print("Welcome! You may enter")
-```
-
-<br>
-
-**`->`** If the user age is < 18:
-
-```python
-print("Sorry, you must be atleast 18")
-```
-
-<br>
-<br>
-
-## `Excercise 02: Odd or Even? 🏋️‍♂️`
-
-`*` Check if the number is odd or even based on user input   📥
-
-* In Visual Code Studio, create a new file. Name it `if_else.py`
-* Ask for user input:
-
-```python
-num = int(input("Enter a number: "))  
-```
-
-* Write an If Else statement to check if the number is odd or even
-
-`❗`   **`Hint: Use the operator: Modulus / Remainder (%)`**
+* In a `break` example like `if i == 5: break` inside `range(10)`, the printed numbers should be `0, 1, 2, 3, 4`.
+* In a `continue` example like `if i == 2: continue` inside `range(5)`, the printed numbers should be `0, 1, 3, 4`.
+* The `else:` block should be indented to align with the `for` block’s body.

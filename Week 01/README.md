@@ -1,57 +1,138 @@
 <div align="center">
-    <img src="https://github.com/viethaa/intro-to-python/blob/e8aaac496c74797dae9a9b5d2938893c9c90729b/assets/01" alt="Python Logo" width="300">
-    <h1>Setup & Installation</h1>
+    <img src="https://github.com/viethaa/intro-to-python/blob/daadf2f6df685972f825ac92ce80dba537d56f88/assets/01" alt="02" width="300">
+    <h1>Data Types & Symbols</h1>
 </div>
 
- `*` *Before we start coding, it is important to setup and install the right applications:*
+ `*` *Understanding data types and symbols is essential for writing effective Python code.*
 
-+ `Visual Studio Code 🔧`; a lightweight and powerful code editor with built-in support for Python, making coding, debugging, and development easier.
+ - `Data types 📦` like integers, strings, and lists are used to store and manipulate data efficiently.
 
-+ `Python 🧩`; the core language for this project, needed to run scripts, manage dependencies, and use essential libraries.
-
-<br>
-
-## ```Task 01:```  🔧
-
-`*` Download [Visual Studio Code](https://code.visualstudio.com/download)
-
-When download is finished:
-- Make a new folder on your desktop and name it `Intro to Python`
-- Select, and open the folder on Visual Code Studio
-- Refer to this [video](https://www.youtube.com/watch?v=KMxo3T_MTvY) if needed
+ - `Symbols and Operators ➕` such as `+`, `==`, and `%` are used for performing arithmetic, comparison, and logical operations.
 
 <br>
 
-## ```Task 02:```  🧩
+## ```📦 Data Types```
 
-`*` Download [Python](https://www.python.org/downloads/release/python-3132/)
-
-Make sure:
-- You downloaded latest version `3.13.2`
-- You downloaded the correct file for your computer type
-- Refer to this [video](https://youtu.be/YKSpANU8jPE?si=y-j3VbxNSl3QlIxv) if needed
-
-<br>
-
-## ```Task 03:``` 💻
-
-`*` Write your first Python code!
-
-To start:
-- Go to Visual Studio Code, and make a new file
-- Name it: `hello.py`
-
-<br>
-
-Type in the following:
-
+`*` **Boolean** (bool)
+- Represents one of two values: `True` or `False`
+- Example:
 ```python
-print("Hello, World!")
+is_active = True
+is_active = False
+```
+<br>
+
+`*` **String** (str)
+- Represents a sequence of characters enclosed in single `(')`, double `(")` quotes
+- Example:
+```python
+name = "Lan Dinh"
+food = 'caesar wrap'
 ```
 
 <br>
 
-## ```Run Python Code: ▶️```
+`*` **Integer** (int)
+- Represents whole numbers (`pos`, `neg`, or `zero`)
+- Example:
+```python
+age = 16
+score = -200
+```
+
+<br>
+
+`*` **Float** (float)
+- Represents `decimal` or `floating-point` numbers
+- Example:
+```python
+pi = 3.14
+temperature = -5.8
+```
+
+<br>
+
+`*` **List** (list)
+- Represents `ordered` and `mutable` (can change) collection of elements
+- Example:
+```python
+fruits = ["Apple", "Banana", "Strawberry"]
+numbers = [1, 2, 3, 4, 5]
+```
+
+<br> 
+
+`*` **Tuple** (tuple)
+- Represents `ordered` and `immutable` (cannot change) collection of elements
+- Example:
+```python
+coordinates = [10.0, 20.0]
+```
+
+<br>
+
+`*` **Dictionary** (dict)
+- Represents a key-value pair collection
+- Example:
+```python
+person = {
+  "name": "Bob",
+  "age": 16,
+  "is_cool": True
+}
+```
+
+<br>
+
+## ```➕ Symbols and Operators```
+
+| Arithmetic Operators | Function               |  
+|:----------------------:|:-----------------------:|  
+| `+`                 | Addition              |  
+| `-`                 | Subtraction           |  
+| `*`                 | Multiplication        |  
+| `/`                 | Division              |  
+| `//`                | Floor Division        |  
+| `%`                 | Modulus / Remainder   | 
+| `**`                 | Exponent   | 
+
+<br>
+
+| Comparison Operators | Function               |  
+|:----------------------:|:-----------------------:|  
+| `==`                 | Equal to              |  
+| `!=`                 | Not equal to          |  
+| `>`                 | Greater than        |  
+| `<`                 | Less than              |  
+| `>=`                | Greater or equal to        |  
+| `<=`                 | Less or equal to   | 
+
+<br>
+
+## ```🏋️‍♂️ Excercise```
+
+`*` In Visual Code Studio, create a new file. Name it `operators.py`
+
+- Write a dictionary that includes the following data types in it: `str`, `int`, `float`, `bool`
+- Example *(DO NOT COPY)*:
+```python
+student = {
+  "name": "Lan Dinh",   #str
+  "age": 16,            #int
+  "height": 5.6,        #float
+  "loves_food": True    #bool
+}
+```
+
+```python
+print(student)
+```
+
+---
+
+<br>
+
+## ```▶️ Run Python Code```
 
 1. **Open VS Code**  
    - Start Visual Studio Code on your computer.
@@ -59,13 +140,13 @@ print("Hello, World!")
 <br>
 
 2. **Open the Terminal**  
-   - To open terminal, simply type the command: **`Ctrl/Command` + `J`**  
+   - Press **`Ctrl/Command` + `J`** (the little backtick key, usually under the Esc key).  
    - A panel will open at the bottom of VS Code — this is the terminal.
 
 <br>
 
 3. **Run Your Python File**  
-   - To run your code in the terminal, run this command:
+   - In the terminal, type:
 
 ```python
 python3 your_file_name.py
@@ -73,9 +154,7 @@ python3 your_file_name.py
 
 <br>
 
-In our case, our file name is `hello.py`, so we would need to type:
+4. **Check your results**  
+   - Compare and check results if they are correct!
 
-
-```python
-python3 hello.py
-```
+---
