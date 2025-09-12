@@ -109,26 +109,66 @@ person = {
 
 <br>
 
-## ```🏋️‍♂️ Excercise```
+## ```🏋️‍♂️ Exercise```
 
-`*` In Visual Code Studio, create a new file. Name it `operators.py`
+Let’s build up your Python skills step by step.
 
-- Write a dictionary that includes the following data types in it: `str`, `int`, `float`, `bool`
-- Example *(DO NOT COPY)*:
+### ✅ Stage 1: Simple Variables  
+Start with individual pieces of information.
+
+1. **Create a new Python file**  
+   - In VS Code, make a new file and name it **`my_info.py`**.
+
+2. **Create some variables**  
+   - Add a few lines like this (but use *your* own details!):
 ```python
-student = {
-  "name": "Lan Dinh",   #str
-  "age": 16,            #int
-  "height": 5.6,        #float
-  "loves_food": True    #bool
-}
+name = "Your Name"     # a string
+age = 16               # an integer (whole number)
+height = 5.6           # a float (decimal number)
+likes_python = True    # a boolean (True or False)
+
+print(name)
+print(age)
+print(height)
+print(likes_python)
 ```
 
+3. **Change a value**  
+   - Try changing `age` to a different number.  
+   - Save and run the file again to see the new output.
+
+---
+
+### ✅ Stage 2: Combine Everything into a Dictionary  
+Now let’s keep all the information in **one place**.
+
+1. **Add this to the bottom of your file**:
 ```python
-print(student)
+my_info = {
+    "name": name,
+    "age": age,
+    "height": height,
+    "likes_python": likes_python
+}
+
+print(my_info)
+```
+
+💡 **Tip:**  
+- Strings (words) go inside quotes `" "`.  
+- Numbers don’t need quotes.  
+- Booleans are either `True` or `False` (with capital letters).
+
+2. **Mini Challenge**  
+   - Add a new piece of information (for example `"favorite_color": "blue"`).  
+   - Print only one value, like this:
+```python
+print(my_info["name"])
 ```
 
 ---
+
+You’re now ready to run it in the terminal and see the results!
 
 <br>
 
