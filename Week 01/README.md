@@ -121,6 +121,9 @@ Start with individual pieces of information.
 
 2. **Create some variables**  
    - Add a few lines like this (but use *your* own details!):
+<details>
+<summary><h3>💡 Click to reveal a sample answer (try it yourself first!)<h3></summary>
+
 ```python
 name = "Your Name"     # a string
 age = 16               # an integer (whole number)
@@ -132,6 +135,7 @@ print(age)
 print(height)
 print(likes_python)
 ```
+</details>
 
 3. **Change a value**  
    - Try changing `age` to a different number.  
@@ -143,6 +147,9 @@ print(likes_python)
 Now let’s keep all the information in **one place**.
 
 1. **Add this to the bottom of your file**:
+<details>
+<summary><h3>💡 Click to reveal a sample answer (try it yourself first!)<h3></summary>
+
 ```python
 my_info = {
     "name": name,
@@ -153,6 +160,7 @@ my_info = {
 
 print(my_info)
 ```
+</details>
 
 💡 **Tip:**  
 - Strings (words) go inside quotes `" "`.  
