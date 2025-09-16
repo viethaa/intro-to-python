@@ -126,8 +126,8 @@ Start with individual pieces of information.
 
 ```python
 name = "Your Name"     # a string
-age = 16               # an integer (whole number)
-height = 5.6           # a float (decimal number)
+age = "Your age"       # an integer (whole number)
+height = 1.70          # a float (decimal number)
 likes_python = True    # a boolean (True or False)
 
 print(name)
