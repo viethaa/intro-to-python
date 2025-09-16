@@ -23,11 +23,11 @@
 Example:
 
 ```python
-name = "Kanye"  
+name = "Minh Do"  
 age = "17"   
 ```
 
-* `name` is the variable, "Kanye" is the str value
+* `name` is the variable, "Minh Do" is the str value
 * `age` is the variable, 17 is the int value
 
 <br>
@@ -37,7 +37,7 @@ age = "17"
 **Basics: strings vs. integers, and `type()`**
 
 ```python
-name = "Kanye"      # string (text)
+name = "Minh Do"      # string (text)
 age = 17            # integer (number)
 
 print(name)
@@ -46,7 +46,7 @@ print(type(name))   # -> <class 'str'>
 print(type(age))    # -> <class 'int'>
 ```
 
-**Reassignment and dynamic typing**
+**Reassigning variables**
 
 ```python
 x = 10
@@ -55,7 +55,7 @@ print("x is:", x)   # -> x is: 10
 x = x + 5
 print("x is now:", x)  # -> x is now: 15
 
-x = "now I'm text"
+x = "now I'm a text"
 print("x became:", x)  # -> x became: now I'm text
 print(type(x))         # -> <class 'str'>
 ```
