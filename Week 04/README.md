@@ -1,162 +1,138 @@
 <div align="center">
-    <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/04.png" alt="04" width="300">
-    <h1>Dictionaries</h1>
+  <img src="https://github.com/viethaa/intro-to-python/blob/main/assets/04.png" alt="Loop Review & While Loops" width="300">
+  <h1>Loop Review & While Loops</h1>
 </div>
 
- `*` *A dictionary in Python is literally like a dictionary in your common sense:*
+`*` *Today, we’ll review what we learned about For Loops, finish the exercises we didn’t complete, and introduce a new type of loop — the While Loop!*
 
- - Dictionaries are mainly used for **storing related data together**, like grouping a person's `age`, `name`, and `email` in **one variable**.
+---
 
- - Organizes data in `key`, `value` pairs, making code easier to read and manage.
+## 🔁 Quick Review: For Loops
 
-<br>
+* `for` loops are used when you **know exactly how many times** you want to repeat something.
+* You can loop through **ranges**, **strings**, and **lists**.
+* Special keywords like `break`, `continue`, and `else` let you control the loop’s flow.
 
-## ```📚 Dictionary Syntax```
-
-`*` Like a normal dictionary which pairs a `word`, and a `meaning`, a dictionary in Python pairs a `key`, and a `value`.
-- Start by creating a **single variable** to store the dictionary's contents
-- The dictionary syntax is written by using curly braces `{}`.
-
-<br>
-
-💡 `Example:`
-```python3
-student = {
-    'name': 'Khoi',
-    'age': 16,
-    'grade': 'Junior'
-}
-```
-
-- `🔑 keys:` name, age, grade
-- `🗂️ values:` Khoi, 16, Junior
-
-<br>
-
-
-## ```🗂️ Accessing Values```
-
-`*` To access a `value` in a dictionary, call the `variable_name` and input the `key` pair in square brackets.
-- This way, you don't have the **manually** go through the dictionary to find the `value`.
-- In programming, always **prioritize efficiency**.
-
-<br>
-
-💡 `Example:`
+💡 *Example:*
 ```python
-goat = {
-    "name": "Ronaldo",
-    "age": 40
-    "club": "Al Nassr FC"
-    "goals" "941"
-}
-
-print(goat["name"])
-print(goat["club"])
-print(f'{goat["name"]} is already {goat["age"]} years old, but he has scored {goat["goals"]} goals.')
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+else:
+    print("Loop finished!")
 ```
 
-<br>
-
-📤  `Output:`
-```python
-- Ronaldo
-- Al Nassr FC
-- Ronaldo is already 40 years old, but he has scored 941 goals.
+🕹️ *Output:*
 ```
-
-<br>
-
-## ```✏️ Adding & Updating Items```
-
-`*` You can add a new key to a dictionary by **simply assigning a value**
-- If the `key` **already exists**, assigning a new `value` will update it
-- If a `key` **does not yet exist**, assigning a new `value` and will add a new `key-value pair`
-
-<br>
-
-💡 `Example:`
-```python
-goat = {
-    "name": "Ronaldo",
-    "age": 40,
-    "club": "Al Nassr FC",
-    "goals": 941
-}
-
-# Add
-goat["nationality"] = "Portuguese"
-
-# Update
-goat["age"] = 41
-
-```
-
-<br>
-
-📖 `Updated Dictionary:`
-```python
-goat = {
-    "name": "Ronaldo",
-    "age": 41,
-    "club": "Al Nassr FC",
-    "goals": 941,
-    "nationality": "Portugese"
-}
-```
-
-<br>
-
-## ```❌ Removing Items```
-
-`*` Removing items from a dictionary means deleting a `key-value` pair so that it **no longer exists** in the dictionary
-- Use `del` or `.pop()` or `clear()` to **remove items**.
-
-#
-
-<br>
-
-`pop()`
-- Removes a specific key and returns its value.
-
-<br>
-
-```python
-student = {"name": "Alicu", "age": 17, "grade": "A"}
-removed = student.pop("age")  
-
-print(student)   # {'name': 'Alicu', 'grade': 'A'}
-print(removed)   # 17
-```
-#
-
-## ```Looping Through a Dictionary 🔄```
-
-* You can loop through keys, values, or both.
-
-### Example:
-
-```python
-for key, value in student.items():
-    print(key, ":", value)
-```
-
-### Output:
-
-```
-name : Alice
-age : 17
+0
+1
+2
+4
+Loop finished!
 ```
 
 ---
 
-## ```Exercise 01: Phonebook 📱```
+## 🧪 Exercise 1 — Finish the Challenge!
 
-* Create a dictionary where names are keys and phone numbers are values.  
-* Write a function to look up a phone number by name.
+* Copy your “Filtered Sum” challenge from last week.
+* Try to finish it **without peeking** 👀
+* Once done, test your code and share your output.
+
+```python
+total = 0
+
+for i in range(1, 101):
+    # your code here
+    pass
+else:
+    # your code here
+    pass
+
+print("Total =", total)
+```
 
 ---
 
-## ```Exercise 02: Word Counter 📝```
+## ⏱️ New Topic: While Loops
 
-* Write a program that counts how many times each word appears in a sentence using a dictionary.
+`*` *While Loops repeat a block of code as long as a certain condition is TRUE.*
+
+* Unlike `for` loops, you don’t need to know how many times it runs.
+* The loop will keep running **until the condition becomes False**.
+
+💡 *Example:*
+```python
+count = 1
+while count <= 5:
+    print("Count =", count)
+    count += 1
+```
+
+🕹️ *Output:*
+```
+Count = 1
+Count = 2
+Count = 3
+Count = 4
+Count = 5
+```
+
+---
+
+## ⚠️ Important: Avoid Infinite Loops!
+
+* Always make sure something in your loop **changes the condition**.
+* Otherwise, your loop will run forever!
+
+💡 *Example (❌ infinite loop!):*
+```python
+x = 0
+while x < 5:
+    print(x)
+    # forgot to increment x!
+```
+
+---
+
+## 🧩 Comparison: For vs While
+
+| Feature | For Loop | While Loop |
+|----------|-----------|-------------|
+| Use when | You know how many times to repeat | You don’t know how many times |
+| Condition type | Based on sequence (`range`, `list`, etc.) | Based on logical condition |
+| Common use | Counting, iterating items | Waiting for something to happen |
+
+---
+
+## 🧪 Exercise 2 — Guessing Game 🎯
+
+* Write a program that keeps asking the user to guess a number until they get it right.
+
+```python
+secret = 7
+guess = 0
+
+while guess != secret:
+    guess = int(input("Guess the number: "))
+
+print("You got it!")
+```
+
+---
+
+## 🧠 Challenge: Countdown Timer ⏰
+
+* Use a `while` loop to count down from 5 to 0.
+* Print “Liftoff” when finished!
+
+Expected Output:
+```
+5
+4
+3
+2
+1
+Liftoff
+```
